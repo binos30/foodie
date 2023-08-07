@@ -1,6 +1,34 @@
 {
-  "appTitle": "foodie",
+  "appTitle": "Foodie",
   "@appTitle": {
     "description": "The title of the application"
-  }
+  },
+  "settings": "Settings",
+  "systemTheme": "System Theme",
+  "lightTheme": "Light Theme",
+  "darkTheme": "Dark Theme",
+  "explore": "Explore",
+  "recipes": "Recipes",
+  "toBuy": "To Buy",
+  "recipesOfTheDay": "Recipes of the Day",
+  "socialChefs": "Social Chefs",
+  "noGroceries": "No Groceries",
+  "shoppingForIngredients": "Shopping for ingredients?",
+  "tapButton": "Tap the + button to write them down!",
+  "browseRecipes": "Browse Recipes",
+  "groceryItem": "Grocery Item",
+  "itemName": "Item Name",
+  "importance": "Importance",
+  "importanceLow": "low",
+  "importanceMedium": "medium",
+  "importanceHigh": "high",
+  "low": "Low",
+  "medium": "Medium",
+  "high": "High",
+  "date": "Date",
+  "select": "Select",
+  "timeOfDay": "Time of Day",
+  "color": "Color",
+  "save": "Save",
+  "quantity": "Quantity"
 }
