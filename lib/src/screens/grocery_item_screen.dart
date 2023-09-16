@@ -90,6 +90,7 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
                   _timeOfDay.hour,
                   _timeOfDay.minute,
                 ),
+                isComplete: widget.originalItem?.isComplete ?? false,
                 index: widget.originalItem?.index,
               );
 
