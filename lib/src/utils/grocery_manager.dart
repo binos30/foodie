@@ -26,9 +26,10 @@ class GroceryManager with ChangeNotifier {
         v['index'] = i.toString();
         items.add(GroceryItem.fromJson(v));
       });
+
+      _groceryItems = items;
+      notifyListeners();
     }
-    _groceryItems = items;
-    notifyListeners();
   }
 
   /// Adds a new grocery item at the end of the list.
