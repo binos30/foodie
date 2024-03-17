@@ -26,6 +26,8 @@ endif
 	@echo "Deploying to git repository"
 	cd build/web && \
 	git init && \
+	touch .gitignore && \
+	echo canvaskit/ >> .gitignore && \
 	git add . && \
 	git commit -m "Deploy Version $(BUILD_VERSION)" && \
 	git branch -M main && \
