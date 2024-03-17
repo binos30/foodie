@@ -26,11 +26,11 @@ endif
 	@echo "Deploying to git repository"
 	cd build/web && \
 	git init && \
-  git add . && \
-  git commit -m "Deploy Version $(BUILD_VERSION)" && \
-  git branch -M main && \
-  git remote add origin $(GITHUB_REPO) && \
-  git push -u -f origin main
+	git add . && \
+	git commit -m "Deploy Version $(BUILD_VERSION)" && \
+	git branch -M main && \
+	git remote add origin $(GITHUB_REPO) && \
+	git push -u -f origin main
 
 	@echo "✅ Finished deploy: $(GITHUB_REPO)"
 	@echo "🚀 Flutter web URL: https://$(GITHUB_USER).github.io/$(OUTPUT)/"
