@@ -6,6 +6,7 @@ import 'screens/explore_screen.dart';
 import 'screens/grocery_screen.dart';
 import 'screens/recipes_screen.dart';
 import 'settings/settings_view.dart';
+import 'utils/set_page_title.dart';
 import 'utils/tab_manager.dart';
 
 class Home extends StatefulWidget {
@@ -54,6 +55,14 @@ class _HomeScreenState extends State<Home> {
             currentIndex: tabManager.selectedTab,
             onTap: (index) {
               tabManager.goToTab(index);
+
+              if (index == 1) {
+                setPageTitle(AppLocalizations.of(context)!.recipes, context);
+              } else if (index == 2) {
+                setPageTitle(AppLocalizations.of(context)!.toBuy, context);
+              } else {
+                setPageTitle('', context);
+              }
             },
             items: [
               BottomNavigationBarItem(

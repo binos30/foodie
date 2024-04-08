@@ -58,10 +58,10 @@ linter:
     - camel_case_types
     - cancel_subscriptions
     - close_sinks
+    - collection_methods_unrelated_type
     - empty_statements
     - file_names
     - hash_and_equals
-    - collection_methods_unrelated_type
     - lines_longer_than_80_chars
     - no_duplicate_case_values
     - no_logic_in_create_state

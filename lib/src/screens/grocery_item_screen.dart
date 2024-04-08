@@ -6,6 +6,7 @@ import 'package:intl/intl.dart';
 import 'package:uuid/uuid.dart';
 
 import '../models/grocery_item.dart';
+import '../utils/set_page_title.dart';
 import '../widgets/grocery_tile.dart';
 
 class GroceryItemScreen extends StatefulWidget {
@@ -72,6 +73,8 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
 
   @override
   Widget build(BuildContext context) {
+    setPageTitle(AppLocalizations.of(context)!.groceryItem, context);
+
     return Scaffold(
       appBar: AppBar(
         actions: [
