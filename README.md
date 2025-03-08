@@ -1,5 +1,8 @@
 # Foodie
 
+[![Created Badge](https://badges.pufler.dev/created/binos30/foodie)](https://badges.pufler.dev)
+[![Updated Badge](https://badges.pufler.dev/updated/binos30/foodie)](https://badges.pufler.dev)
+
 A social recipe app.
 
 ## Getting Started
@@ -8,19 +11,19 @@ A social recipe app.
 
 2. Clone this repo.
 
-```
+```bash
 git clone https://github.com/binos30/foodie.git
 ```
 
 3. Install dependencies.
 
-```
+```bash
 flutter pub get
 ```
 
 4. Run the app in Android Studio, VS Code, or the command line:
 
-```
+```bash
 flutter run
 ```
 
